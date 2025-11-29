@@ -1,6 +1,8 @@
 // 广告配置工具函数
 
 export function isAdEnabled(): boolean {
+  return false;
+  
   // 检查是否启用广告
   const enabled = process.env.NEXT_PUBLIC_AD_ENABLED;
   if (enabled === 'false') {
